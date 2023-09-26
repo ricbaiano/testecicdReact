@@ -14,3 +14,17 @@ jobs:
         with:
           release-type: node
           package-name: <your-package-name>
+
+      - uses: actions/checkout@v1
+      - name: Use Node.js 16.x
+      
+        uses: actions/setup-node@v3
+        with:
+            node-version: 16.x
+      - name: npm install, make test-coverage
+        run: |
+            npm install
+            make test-coverage
+        
+      - name: Coveralls
+        uses: coverallsapp/github-action@v2
