@@ -1,15 +1,15 @@
 {
   "types": [
-    {"type":"feat","section":"Features"},
-    {"type":"fix","section":"Bug Fixes"},
-    {"type":"test","section":"Tests"},
-    {"type":"build","section":"Build System"},
-    {"type":"ci","section":"Continuous Integration"},
-    {"type": "chore","section":"Tests"},
-    {"type": "docs","section":"Documentation"},
-    {"type": "style","section":"Styles"},
-    {"type": "refactor","section":"Refactor"},
-    {"type": "perf","section":"Performance"},
-    {"type": "revert","section":"Revert"}
+    {"type":"feat","section": "🆕 Features"},
+    {"type":"fix","section": "🐛 Bug Fixes"},
+    {"type":"test","section": "🧪 Test"},
+    {"type":"build","section": "🛠️ Build"},
+    {"type":"ci","section": "⚡ Continuous Integration"},
+    {"type": "chore","section":"📦 Chore"},
+    {"type": "docs","section": "📝 Documentation"},
+    {"type": "style","section": "✨ Style"},
+    {"type": "refactor","section": "⚙️ Refactor"},
+    {"type": "perf","section": "🚀 Performance"},
+    {"type": "revert","section": "🔙 Revert"}
   ]
 }
